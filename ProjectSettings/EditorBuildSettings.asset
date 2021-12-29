@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01 Create an entity manually/Scenes/01 Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/02 Create an entity/Scenes/02 Scene.unity
+    guid: 2a39ef7dcf8ac4202a49cf4cb7ff13f2
+  - enabled: 1
+    path: Assets/03 Simple Components and System/Scenes/03 Scene.unity
+    guid: 501aeecaa852c44ba9f5cd8e76f56d70
   m_configObjects: {}
