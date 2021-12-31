@@ -2,8 +2,6 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-public class System05Group : ComponentSystemGroup { }
-
 [UpdateInGroup(typeof(System05Group))]
 public class MoveSystem05 : SystemBase
 {
