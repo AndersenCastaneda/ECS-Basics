@@ -344,10 +344,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1554864692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8775e72f288c4c5e82fcdd318630453, type: 3}
+  m_Script: {fileID: 11500000, guid: e4063b00037704b5e8aaf8e0c5396716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameObjectPrefab: {fileID: 7257980867478062256, guid: e8c71ed61f1734d90979a6738744ca1e,
+  _gameObjectPrefab: {fileID: 8946115034494409633, guid: eb753c56e573b4c9895f3f561daddb6a,
     type: 3}
   _gridXSize: 30
   _gridYSize: 30
