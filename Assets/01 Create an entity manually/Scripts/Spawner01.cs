@@ -32,7 +32,7 @@ public class Spawner01 : MonoBehaviour
 		// Set the value to the components that the entity has
 		entityManager.AddComponentData(entity, new Translation { Value = new float3(-1.5f, 0f, 0f) });
 
-		/// For Mesh or materials should use AddSharedComponentData to reduce draw calls
+		// For Mesh or materials should use AddSharedComponentData to reduce draw calls
 		entityManager.AddSharedComponentData(entity, new RenderMesh { mesh = _mesh, material = _material });
 	}
 }

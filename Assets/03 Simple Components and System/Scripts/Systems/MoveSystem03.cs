@@ -8,7 +8,7 @@ public class MoveSystem03 : SystemBase
 	{
 		var elapsedTime = (float)Time.ElapsedTime;
 
-		Entities.ForEach((ref Translation translation, in Wave wave, in MoveSpeed moveSpeed, in Component03 c) =>
+		Entities.ForEach((ref Translation translation, in Wave wave, in MoveSpeed moveSpeed, in Component03 unused) =>
 		{
 			var zPosition = wave.Amplitude * math.sin((elapsedTime * moveSpeed.Value) +
 				(translation.Value.x * wave.OffsetX) + (translation.Value.y * wave.OffsetY));

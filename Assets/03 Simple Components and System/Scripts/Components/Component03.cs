@@ -1,4 +1,4 @@
 using Unity.Entities;
 
 [GenerateAuthoringComponent]
-struct Component03 : IComponentData { }
+public struct Component03 : IComponentData { }

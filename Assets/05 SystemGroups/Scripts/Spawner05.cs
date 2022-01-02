@@ -39,9 +39,9 @@ public class Spawner05 : MonoBehaviour
 
 	private void InstantiateEntityGrid(int width, int height, float spacing = 1.1f)
 	{
-		for (int i = 0; i < width; ++i)
+		for (var i = 0; i < width; ++i)
 		{
-			for (int j = 0; j < height; ++j)
+			for (var j = 0; j < height; ++j)
 			{
 				InstantiateEntity(new float3(i * spacing, j * spacing, 0f));
 			}
