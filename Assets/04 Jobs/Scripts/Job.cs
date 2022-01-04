@@ -1,13 +1,16 @@
 using Unity.Collections;
 using Unity.Jobs;
 
-public struct Job : IJob
+namespace ECS_Basics_04
 {
-	public int Number;
-	public NativeArray<int> Result;
-
-	public void Execute()
+	public struct Job : IJob
 	{
-		Result[0] = Number;
+		public int Number;
+		public NativeArray<int> Result;
+
+		public void Execute()
+		{
+			Result[0] = Number;
+		}
 	}
 }

@@ -1,8 +1,11 @@
 using Unity.Entities;
 using Unity.Mathematics;
 
-[GenerateAuthoringComponent]
-public struct Movement : IComponentData
+namespace ECS_Basics_07
 {
-	public float3 Value;
+	[GenerateAuthoringComponent]
+	public struct Movement : IComponentData
+	{
+		public float3 Value;
+	}
 }

@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace ECS_Basics_03
+namespace ECS_Basics_05
 {
 	[GenerateAuthoringComponent]
 	public struct Wave : IComponentData

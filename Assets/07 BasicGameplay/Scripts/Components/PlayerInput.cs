@@ -1,11 +1,14 @@
 using UnityEngine;
 using Unity.Entities;
 
-[GenerateAuthoringComponent]
-public struct PlayerInput : IComponentData
+namespace ECS_Basics_07
 {
-	public KeyCode Up;
-	public KeyCode Down;
-	public KeyCode Left;
-	public KeyCode Right;
+	[GenerateAuthoringComponent]
+	public struct PlayerInput : IComponentData
+	{
+		public KeyCode Up;
+		public KeyCode Down;
+		public KeyCode Left;
+		public KeyCode Right;
+	}
 }

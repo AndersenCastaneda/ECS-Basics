@@ -1,7 +1,10 @@
 using Unity.Entities;
 
-[GenerateAuthoringComponent]
-public struct MoveSpeed : IComponentData
+namespace ECS_Basics_03
 {
-	public float Value;
+	[GenerateAuthoringComponent]
+	public struct MoveSpeed : IComponentData
+	{
+		public float Value;
+	}
 }
